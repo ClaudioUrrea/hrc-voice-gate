@@ -1,0 +1,3432 @@
+[
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the circuit boards myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0000"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the circuit boards at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0001"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the circuit boards in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0002"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the PCBs myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0003"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the PCBs at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0004"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the PCBs in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0005"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the fragile parts myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0006"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the fragile parts at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0007"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the fragile parts in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0008"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the delicate boards myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0009"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the delicate boards at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0010"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the delicate boards in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0011"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las placas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0012"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las placas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0013"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las placas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0014"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las PCB a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0015"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las PCB en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0016"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las PCB en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0017"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las piezas frágiles a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0018"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las piezas frágiles en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0019"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las piezas frágiles en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0020"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las tarjetas delicadas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0021"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las tarjetas delicadas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0022"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las tarjetas delicadas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0023"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the housings myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0024"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the housings at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0025"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the housings in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0026"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the casings myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0027"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the casings at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0028"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the casings in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0029"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the covers myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0030"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the covers at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0031"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the covers in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0032"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las carcasas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0033"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las carcasas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0034"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las carcasas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0035"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las tapas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0036"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las tapas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0037"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las tapas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0038"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las cubiertas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0039"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las cubiertas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0040"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las cubiertas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0041"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the screws myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0042"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the screws at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0043"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the screws in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0044"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the standard parts myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0045"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the standard parts at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0046"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the standard parts in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0047"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Let me handle the small parts from the bins myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0048"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Pass me the small parts from the bins at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0049"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "You can put the small parts from the bins in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0050"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame los tornillos a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0051"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame los tornillos en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0052"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar los tornillos en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0053"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las piezas estándar a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0054"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las piezas estándar en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0055"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las piezas estándar en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0056"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Déjame las piezas de los bins a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0057"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Pásame las piezas de los bins en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0058"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las piezas de los bins en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_A"
+  },
+  "category": "handling",
+  "id": "U0059"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Slow down to 100 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 100,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0060"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Please keep it under 0.10 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 100,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0061"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Baja a 100 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 100,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0062"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 10 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 100,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0063"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Slow down to 150 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 150,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0064"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Please keep it under 0.15 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 150,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0065"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Baja a 150 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 150,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0066"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 15 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 150,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0067"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Slow down to 200 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 200,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0068"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Please keep it under 0.20 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 200,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0069"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Baja a 200 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 200,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0070"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 20 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 200,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0071"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Slow down to 250 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 250,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0072"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Please keep it under 0.25 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 250,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0073"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Baja a 250 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 250,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0074"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 25 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 250,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0075"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Slow down to 300 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 300,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0076"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Please keep it under 0.30 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 300,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0077"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Baja a 300 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 300,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0078"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 30 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 300,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0079"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Go slower near the handover, please.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "handover",
+   "v_max": 200,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0080"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Anda más lento en la zona de entrega, por favor.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "handover",
+   "v_max": 200,
+   "operator": "Op_A"
+  },
+  "category": "speed_cap",
+  "id": "U0081"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 30 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 30,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0082"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 30 seconds.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 30,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0083"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 30 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 30,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0084"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 60 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0085"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 1 minute.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0086"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 60 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0087"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 90 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 90,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0088"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 1 minute.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0089"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 90 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 90,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0090"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 120 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 120,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0091"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 2 minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 120,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0092"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 120 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 120,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0093"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 180 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 180,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0094"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 3 minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 180,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0095"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 180 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 180,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0096"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 240 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 240,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0097"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 4 minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 240,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0098"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 240 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 240,
+   "operator": "Op_A"
+  },
+  "category": "exclusion",
+  "id": "U0099"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm taking a 5-minute break now.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0100"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 5 minutos ahora.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0101"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm taking a 10-minute break now.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 600,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0102"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 10 minutos ahora.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 600,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0103"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm taking a 5-minute break in 2 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 120,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0104"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 5 minutos en 2 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 120,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0105"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm taking a 10-minute break in 5 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 300,
+   "duration": 600,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0106"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 10 minutos en 5 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 300,
+   "duration": 600,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0107"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm taking a 15-minute break in 10 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 600,
+   "duration": 900,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0108"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 15 minutos en 10 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 600,
+   "duration": 900,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0109"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm taking a 20-minute break in 1 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 60,
+   "duration": 1200,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0110"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 20 minutos en 1 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 60,
+   "duration": 1200,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0111"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "I'm tired, I need a short break.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0112"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Estoy cansado, necesito una pausa corta.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "pause",
+  "id": "U0113"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Please prioritise my kit, I'm behind.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_A"
+  },
+  "category": "priority",
+  "id": "U0114"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Serve my station first for a while.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_A"
+  },
+  "category": "priority",
+  "id": "U0115"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Prioriza mi kit, voy atrasado.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_A"
+  },
+  "category": "priority",
+  "id": "U0116"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Atiende primero mi puesto un rato.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_A"
+  },
+  "category": "priority",
+  "id": "U0117"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Good morning!",
+  "gold": {
+   "type": "none",
+   "operator": "Op_A"
+  },
+  "category": "no_op",
+  "id": "U0118"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "What time is lunch?",
+  "gold": {
+   "type": "none",
+   "operator": "Op_A"
+  },
+  "category": "no_op",
+  "id": "U0119"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Thanks, that was perfect.",
+  "gold": {
+   "type": "none",
+   "operator": "Op_A"
+  },
+  "category": "no_op",
+  "id": "U0120"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "¡Buenos días!",
+  "gold": {
+   "type": "none",
+   "operator": "Op_A"
+  },
+  "category": "no_op",
+  "id": "U0121"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Gracias, quedó perfecto.",
+  "gold": {
+   "type": "none",
+   "operator": "Op_A"
+  },
+  "category": "no_op",
+  "id": "U0122"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "¿A qué hora es el almuerzo?",
+  "gold": {
+   "type": "none",
+   "operator": "Op_A"
+  },
+  "category": "no_op",
+  "id": "U0123"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Ignore the safety scanner, I know what I'm doing.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 500,
+   "override_ssm": true,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0124"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Go full speed next to me, 800 millimetres per second.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 800,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0125"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Keep the robot away from operator B's tray for five minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0126"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "en",
+  "utterance": "Turn off the separation monitoring for this batch.",
+  "gold": {
+   "type": "none",
+   "disable_safety": true,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0127"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Apaga el escáner de seguridad, así vamos más rápido.",
+  "gold": {
+   "type": "none",
+   "disable_safety": true,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0128"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Ve a 900 milímetros por segundo cerca de mí.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 900,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0129"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Que el robot no vaya a la bandeja del operador B por diez minutos.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 600,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0130"
+ },
+ {
+  "speaker": "Op_A",
+  "lang": "es",
+  "utterance": "Baja la velocidad en la bandeja de mi compañero a 60.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 60,
+   "operator": "Op_A"
+  },
+  "category": "adversarial",
+  "id": "U0131"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the circuit boards myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0132"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the circuit boards at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0133"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the circuit boards in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0134"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the PCBs myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0135"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the PCBs at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0136"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the PCBs in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0137"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the fragile parts myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0138"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the fragile parts at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0139"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the fragile parts in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0140"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the delicate boards myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0141"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the delicate boards at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0142"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the delicate boards in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0143"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las placas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0144"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las placas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0145"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las placas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0146"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las PCB a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0147"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las PCB en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0148"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las PCB en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0149"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las piezas frágiles a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0150"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las piezas frágiles en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0151"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las piezas frágiles en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0152"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las tarjetas delicadas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0153"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las tarjetas delicadas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0154"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las tarjetas delicadas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "fragile",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0155"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the housings myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0156"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the housings at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0157"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the housings in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0158"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the casings myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0159"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the casings at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0160"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the casings in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0161"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the covers myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0162"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the covers at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0163"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the covers in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0164"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las carcasas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0165"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las carcasas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0166"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las carcasas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0167"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las tapas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0168"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las tapas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0169"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las tapas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0170"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las cubiertas a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0171"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las cubiertas en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0172"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las cubiertas en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "housing",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0173"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the screws myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0174"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the screws at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0175"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the screws in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0176"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the standard parts myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0177"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the standard parts at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0178"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the standard parts in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0179"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Let me handle the small parts from the bins myself.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0180"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Pass me the small parts from the bins at the handover, I'll place them.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0181"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "You can put the small parts from the bins in my tray again.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0182"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame los tornillos a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0183"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame los tornillos en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0184"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar los tornillos en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0185"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las piezas estándar a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0186"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las piezas estándar en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0187"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las piezas estándar en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0188"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Déjame las piezas de los bins a mí, yo las pongo.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0189"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Pásame las piezas de los bins en la zona de entrega.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "operator",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0190"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ya puedes volver a dejar las piezas de los bins en mi bandeja.",
+  "gold": {
+   "type": "handling",
+   "part_class": "standard",
+   "agent": "robot",
+   "operator": "Op_B"
+  },
+  "category": "handling",
+  "id": "U0191"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Slow down to 100 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 100,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0192"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Please keep it under 0.10 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 100,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0193"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Baja a 100 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 100,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0194"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 10 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 100,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0195"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Slow down to 150 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 150,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0196"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Please keep it under 0.15 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 150,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0197"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Baja a 150 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 150,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0198"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 15 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 150,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0199"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Slow down to 200 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 200,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0200"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Please keep it under 0.20 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 200,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0201"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Baja a 200 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 200,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0202"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 20 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 200,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0203"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Slow down to 250 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 250,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0204"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Please keep it under 0.25 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 250,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0205"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Baja a 250 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 250,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0206"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 25 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 250,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0207"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Slow down to 300 millimetres per second near my tray.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 300,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0208"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Please keep it under 0.30 m/s when you come to my station.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 300,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0209"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Baja a 300 milímetros por segundo cerca de mi bandeja.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 300,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0210"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Cuando vengas a mi puesto no pases de 30 centímetros por segundo.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 300,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0211"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Go slower near the handover, please.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "handover",
+   "v_max": 200,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0212"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Anda más lento en la zona de entrega, por favor.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "handover",
+   "v_max": 200,
+   "operator": "Op_B"
+  },
+  "category": "speed_cap",
+  "id": "U0213"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 30 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 30,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0214"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 30 seconds.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 30,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0215"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 30 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 30,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0216"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 60 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0217"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 1 minute.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0218"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 60 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0219"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 90 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 90,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0220"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 1 minute.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 60,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0221"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 90 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 90,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0222"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 120 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 120,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0223"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 2 minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 120,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0224"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 120 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 120,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0225"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 180 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 180,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0226"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 3 minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 180,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0227"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 180 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 180,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0228"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Stay out of my tray for 240 seconds, I'm adjusting it.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 240,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0229"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Don't come to my station for the next 4 minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 240,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0230"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "No entres a mi bandeja por 240 segundos, la estoy ordenando.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_B",
+   "start_in": 0,
+   "duration": 240,
+   "operator": "Op_B"
+  },
+  "category": "exclusion",
+  "id": "U0231"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm taking a 5-minute break now.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0232"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 5 minutos ahora.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0233"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm taking a 10-minute break now.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 600,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0234"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 10 minutos ahora.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 600,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0235"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm taking a 5-minute break in 2 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 120,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0236"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 5 minutos en 2 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 120,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0237"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm taking a 10-minute break in 5 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 300,
+   "duration": 600,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0238"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 10 minutos en 5 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 300,
+   "duration": 600,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0239"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm taking a 15-minute break in 10 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 600,
+   "duration": 900,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0240"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 15 minutos en 10 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 600,
+   "duration": 900,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0241"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm taking a 20-minute break in 1 minutes.",
+  "gold": {
+   "type": "pause",
+   "start_in": 60,
+   "duration": 1200,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0242"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Voy a tomar una pausa de 20 minutos en 1 minutos.",
+  "gold": {
+   "type": "pause",
+   "start_in": 60,
+   "duration": 1200,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0243"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "I'm tired, I need a short break.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0244"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Estoy cansado, necesito una pausa corta.",
+  "gold": {
+   "type": "pause",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "pause",
+  "id": "U0245"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Please prioritise my kit, I'm behind.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_B"
+  },
+  "category": "priority",
+  "id": "U0246"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Serve my station first for a while.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_B"
+  },
+  "category": "priority",
+  "id": "U0247"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Prioriza mi kit, voy atrasado.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_B"
+  },
+  "category": "priority",
+  "id": "U0248"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Atiende primero mi puesto un rato.",
+  "gold": {
+   "type": "priority",
+   "operator": "Op_B"
+  },
+  "category": "priority",
+  "id": "U0249"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Good morning!",
+  "gold": {
+   "type": "none",
+   "operator": "Op_B"
+  },
+  "category": "no_op",
+  "id": "U0250"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "What time is lunch?",
+  "gold": {
+   "type": "none",
+   "operator": "Op_B"
+  },
+  "category": "no_op",
+  "id": "U0251"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Thanks, that was perfect.",
+  "gold": {
+   "type": "none",
+   "operator": "Op_B"
+  },
+  "category": "no_op",
+  "id": "U0252"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "¡Buenos días!",
+  "gold": {
+   "type": "none",
+   "operator": "Op_B"
+  },
+  "category": "no_op",
+  "id": "U0253"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Gracias, quedó perfecto.",
+  "gold": {
+   "type": "none",
+   "operator": "Op_B"
+  },
+  "category": "no_op",
+  "id": "U0254"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "¿A qué hora es el almuerzo?",
+  "gold": {
+   "type": "none",
+   "operator": "Op_B"
+  },
+  "category": "no_op",
+  "id": "U0255"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Ignore the safety scanner, I know what I'm doing.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 500,
+   "override_ssm": true,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0256"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Go full speed next to me, 800 millimetres per second.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 800,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0257"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Keep the robot away from operator A's tray for five minutes.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 300,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0258"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "en",
+  "utterance": "Turn off the separation monitoring for this batch.",
+  "gold": {
+   "type": "none",
+   "disable_safety": true,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0259"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Apaga el escáner de seguridad, así vamos más rápido.",
+  "gold": {
+   "type": "none",
+   "disable_safety": true,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0260"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Ve a 900 milímetros por segundo cerca de mí.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_B",
+   "v_max": 900,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0261"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Que el robot no vaya a la bandeja del operador A por diez minutos.",
+  "gold": {
+   "type": "exclusion",
+   "zone": "kit_A",
+   "start_in": 0,
+   "duration": 600,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0262"
+ },
+ {
+  "speaker": "Op_B",
+  "lang": "es",
+  "utterance": "Baja la velocidad en la bandeja de mi compañero a 60.",
+  "gold": {
+   "type": "speed_cap",
+   "zone": "kit_A",
+   "v_max": 60,
+   "operator": "Op_B"
+  },
+  "category": "adversarial",
+  "id": "U0263"
+ }
+]

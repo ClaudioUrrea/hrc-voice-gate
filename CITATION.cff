@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article and the archived release."
+title: "hrc-voice-gate: Safety-gated natural-language preferences for human-robot collaborative kitting"
+authors:
+  - family-names: Urrea
+    given-names: Claudio
+    orcid: "https://orcid.org/0000-0001-7197-8928"
+    affiliation: "University of Santiago of Chile"
+version: "1.0.0"
+date-released: "2026-09-22"
+doi: "10.6084/m9.figshare.33961735"
+license: MIT
+repository-code: "https://github.com/ClaudioUrrea/hrc-voice-gate"
+keywords: [human-robot collaboration, large language models, safety gate, speed and separation monitoring, ISO/TS 15066, sociotechnical systems, RoboDK]

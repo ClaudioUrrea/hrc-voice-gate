@@ -1,0 +1,927 @@
+{
+  "config": {
+    "robot_path": "C:\\RoboDK\\Library\\Doosan-Robotics-M1013.robot",
+    "robot_file_hint": "M1013",
+    "robot_base": [
+      0,
+      0,
+      780
+    ],
+    "table": {
+      "center": [
+        820,
+        0
+      ],
+      "size": [
+        900,
+        1600
+      ],
+      "h": 850
+    },
+    "operators": {
+      "Op_A": {
+        "pos": [
+          1500,
+          -420
+        ],
+        "yaw": 180,
+        "height": 1760,
+        "vest": [
+          1.0,
+          0.45,
+          0.05,
+          1
+        ],
+        "helmet": [
+          0.97,
+          0.97,
+          0.97,
+          1
+        ],
+        "pants": [
+          0.16,
+          0.22,
+          0.4,
+          1
+        ]
+      },
+      "Op_B": {
+        "pos": [
+          1500,
+          420
+        ],
+        "yaw": 180,
+        "height": 1660,
+        "vest": [
+          0.78,
+          0.95,
+          0.1,
+          1
+        ],
+        "helmet": [
+          0.1,
+          0.35,
+          0.8,
+          1
+        ],
+        "pants": [
+          0.2,
+          0.2,
+          0.22,
+          1
+        ]
+      }
+    },
+    "ssm": {
+      "vh": 1600,
+      "Tr": 0.1,
+      "Ts": 0.3,
+      "vr": 1000,
+      "Ss": 220,
+      "C": 120,
+      "Zd": 50,
+      "Zr": 20
+    },
+    "reduced_speed_factor": 0.25,
+    "show_ssm_envelope": true,
+    "out_dir": "C:\\Users\\Claudio\\HRC_Systems_cell"
+  },
+  "objects": [
+    "Floor",
+    "Aisle_S",
+    "Aisle_N",
+    "Hazard_0",
+    "Hazard_1",
+    "Hazard_2",
+    "Hazard_3",
+    "Hazard_4",
+    "Hazard_5",
+    "Hazard_6",
+    "Hazard_7",
+    "Hazard_8",
+    "Hazard_9",
+    "Hazard_10",
+    "Hazard_11",
+    "Hazard_12",
+    "Hazard_13",
+    "Hazard_14",
+    "Hazard_15",
+    "Hazard_16",
+    "Hazard_17",
+    "Hazard_18",
+    "Hazard_19",
+    "Hazard_20",
+    "Hazard_21",
+    "Pause_Floor",
+    "Pause_Bench_Seat",
+    "Pause_Bench_Leg-560",
+    "Pause_Bench_Leg560",
+    "Pause_Table",
+    "Pause_Table_Leg",
+    "Pause_Cooler_Body",
+    "Pause_Cooler_Bottle",
+    "Pause_Locker_0",
+    "Pause_Locker_1",
+    "Pause_Locker_2",
+    "Pedestal_Plate",
+    "Pedestal_Column",
+    "Pedestal_Flange",
+    "Pedestal_Anchor_-240_-240",
+    "Pedestal_Anchor_-240_240",
+    "Pedestal_Anchor_240_-240",
+    "Pedestal_Anchor_240_240",
+    "Laser_Scanner",
+    "Laser_Scanner_Window",
+    "Table_Top",
+    "ESD_Mat",
+    "Table_Leg_-420_-770",
+    "Table_Foot_-420_-770",
+    "Table_Leg_-420_770",
+    "Table_Foot_-420_770",
+    "Table_Leg_420_-770",
+    "Table_Foot_420_-770",
+    "Table_Leg_420_770",
+    "Table_Foot_420_770",
+    "Table_Rail_-420",
+    "Table_Rail_420",
+    "Table_Shelf",
+    "Gantry_Post_-770",
+    "Gantry_Post_770",
+    "Gantry_Beam",
+    "LED_Lamp",
+    "Instruction_Screen_A",
+    "Instruction_Display_A",
+    "Instruction_Screen_B",
+    "Instruction_Display_B",
+    "Tray_A",
+    "Tray_A_Pocket00",
+    "Tray_A_Pocket01",
+    "Tray_A_Pocket10",
+    "Tray_A_Pocket11",
+    "Tray_A_Pocket20",
+    "Tray_A_Pocket21",
+    "Fixture_A",
+    "Tray_B",
+    "Tray_B_Pocket00",
+    "Tray_B_Pocket01",
+    "Tray_B_Pocket10",
+    "Tray_B_Pocket11",
+    "Tray_B_Pocket20",
+    "Tray_B_Pocket21",
+    "Fixture_B",
+    "Handover_Mark",
+    "Handover_Border",
+    "Rack_Post_-230_-160",
+    "Rack_Post_-230_160",
+    "Rack_Post_230_-160",
+    "Rack_Post_230_160",
+    "Rack_Shelf_0",
+    "Rack_Shelf_1",
+    "Rack_Shelf_2",
+    "ESD_Box_0_0",
+    "PCB_0_0",
+    "ESD_Box_0_1",
+    "PCB_0_1",
+    "ESD_Box_0_2",
+    "PCB_0_2",
+    "ESD_Box_1_0",
+    "PCB_1_0",
+    "ESD_Box_1_1",
+    "PCB_1_1",
+    "ESD_Box_1_2",
+    "PCB_1_2",
+    "Rack_Label",
+    "Bins_Stand",
+    "Bins_Leg_-240_-170",
+    "Bins_Leg_-240_170",
+    "Bins_Leg_240_-170",
+    "Bins_Leg_240_170",
+    "Bin_0",
+    "Bin_1",
+    "Bin_2",
+    "Conv_Rail_-1",
+    "Conv_Leg_-1_-900",
+    "Conv_Leg_-1_0",
+    "Conv_Leg_-1_900",
+    "Conv_Rail_1",
+    "Conv_Leg_1_-900",
+    "Conv_Leg_1_0",
+    "Conv_Leg_1_900",
+    "Roller_00",
+    "Roller_01",
+    "Roller_02",
+    "Roller_03",
+    "Roller_04",
+    "Roller_05",
+    "Roller_06",
+    "Roller_07",
+    "Roller_08",
+    "Roller_09",
+    "Roller_10",
+    "Roller_11",
+    "Roller_12",
+    "Roller_13",
+    "Roller_14",
+    "Roller_15",
+    "Roller_16",
+    "Roller_17",
+    "Roller_18",
+    "Roller_19",
+    "Roller_20",
+    "Roller_21",
+    "Roller_22",
+    "Roller_23",
+    "Roller_24",
+    "Roller_25",
+    "Roller_26",
+    "Roller_27",
+    "Roller_28",
+    "Roller_29",
+    "Roller_30",
+    "Roller_31",
+    "Roller_32",
+    "Roller_33",
+    "Roller_34",
+    "Roller_35",
+    "Roller_36",
+    "Roller_37",
+    "Roller_38",
+    "Roller_39",
+    "Housing_0",
+    "Housing_1",
+    "Housing_2",
+    "Housing_3",
+    "Conv_Motor",
+    "Fence_W_Post0",
+    "Fence_W_Post1",
+    "Fence_W_Post2",
+    "Fence_W_Post3",
+    "Fence_W_Mesh0",
+    "Fence_W_Frame0_200",
+    "Fence_W_Frame0_1900",
+    "Fence_W_Mesh1",
+    "Fence_W_Frame1_200",
+    "Fence_W_Frame1_1900",
+    "Fence_W_Mesh2",
+    "Fence_W_Frame2_200",
+    "Fence_W_Frame2_1900",
+    "Fence_S_Post0",
+    "Fence_S_Post1",
+    "Fence_S_Mesh0",
+    "Fence_S_Frame0_200",
+    "Fence_S_Frame0_1900",
+    "Fence_N_Post0",
+    "Fence_N_Post1",
+    "Fence_N_Mesh0",
+    "Fence_N_Frame0_200",
+    "Fence_N_Frame0_1900",
+    "Op_A_AntiFatigueMat",
+    "Op_A_Body_0",
+    "Op_A_Body_1",
+    "Op_A_Body_2",
+    "Op_A_Body_3",
+    "Op_A_Body_4",
+    "Op_A_Body_5",
+    "Op_A_Body_6",
+    "Op_A_Body_7",
+    "Op_A_Body_8",
+    "Op_B_AntiFatigueMat",
+    "Op_B_Body_0",
+    "Op_B_Body_1",
+    "Op_B_Body_2",
+    "Op_B_Body_3",
+    "Op_B_Body_4",
+    "Op_B_Body_5",
+    "Op_B_Body_6",
+    "Op_B_Body_7",
+    "Op_B_Body_8",
+    "Terminal_A_Base",
+    "Terminal_A_Pole",
+    "Terminal_A_Tablet",
+    "Terminal_A_Display",
+    "Terminal_A_Mic",
+    "Terminal_A_PTT",
+    "Terminal_B_Base",
+    "Terminal_B_Pole",
+    "Terminal_B_Tablet",
+    "Terminal_B_Display",
+    "Terminal_B_Mic",
+    "Terminal_B_PTT",
+    "Andon_Pole",
+    "Andon_L0",
+    "Andon_L1",
+    "Andon_L2",
+    "Andon_L3",
+    "Envelope_Reach",
+    "Envelope_Stop",
+    "Envelope_Warn"
+  ],
+  "targets": [
+    {
+      "name": "T_PCB_10_App",
+      "xyz": [
+        100,
+        -800,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -85.328,
+        24.449,
+        76.471,
+        -0.0,
+        79.079,
+        -2.453
+      ]
+    },
+    {
+      "name": "T_PCB_10",
+      "xyz": [
+        100,
+        -800,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -85.328,
+        28.759,
+        86.104,
+        -0.0,
+        65.138,
+        -2.453
+      ]
+    },
+    {
+      "name": "T_PCB_11_App",
+      "xyz": [
+        250,
+        -800,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -75.005,
+        27.47,
+        71.961,
+        -0.0,
+        80.569,
+        -2.359
+      ]
+    },
+    {
+      "name": "T_PCB_11",
+      "xyz": [
+        250,
+        -800,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -75.005,
+        31.471,
+        81.739,
+        -0.0,
+        66.79,
+        -2.359
+      ]
+    },
+    {
+      "name": "T_PCB_12_App",
+      "xyz": [
+        400,
+        -800,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -65.646,
+        33.049,
+        63.235,
+        -0.0,
+        83.716,
+        -2.211
+      ]
+    },
+    {
+      "name": "T_PCB_12",
+      "xyz": [
+        400,
+        -800,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -65.646,
+        36.429,
+        73.48,
+        -0.0,
+        70.091,
+        -2.211
+      ]
+    },
+    {
+      "name": "T_Bin_0_App",
+      "xyz": [
+        90,
+        800,
+        1010
+      ],
+      "reachable": true,
+      "joints": [
+        81.125,
+        23.453,
+        70.679,
+        -0.0,
+        85.868,
+        -2.457
+      ]
+    },
+    {
+      "name": "T_Bin_0",
+      "xyz": [
+        90,
+        800,
+        1010
+      ],
+      "reachable": true,
+      "joints": [
+        81.125,
+        26.253,
+        82.265,
+        -0.0,
+        71.481,
+        -2.457
+      ]
+    },
+    {
+      "name": "T_Bin_1_App",
+      "xyz": [
+        250,
+        800,
+        1010
+      ],
+      "reachable": true,
+      "joints": [
+        70.286,
+        26.745,
+        65.836,
+        -0.0,
+        87.419,
+        -2.359
+      ]
+    },
+    {
+      "name": "T_Bin_1",
+      "xyz": [
+        250,
+        800,
+        1010
+      ],
+      "reachable": true,
+      "joints": [
+        70.286,
+        29.216,
+        77.698,
+        -0.0,
+        73.086,
+        -2.359
+      ]
+    },
+    {
+      "name": "T_Bin_2_App",
+      "xyz": [
+        410,
+        800,
+        1010
+      ],
+      "reachable": true,
+      "joints": [
+        60.665,
+        33.186,
+        55.827,
+        -0.0,
+        90.987,
+        -2.2
+      ]
+    },
+    {
+      "name": "T_Bin_2",
+      "xyz": [
+        410,
+        800,
+        1010
+      ],
+      "reachable": true,
+      "joints": [
+        60.665,
+        34.888,
+        68.567,
+        -0.0,
+        76.545,
+        -2.2
+      ]
+    },
+    {
+      "name": "T_Housing_0_App",
+      "xyz": [
+        -700,
+        -600,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        -141.544,
+        36.097,
+        59.805,
+        0.0,
+        84.098,
+        -2.145
+      ]
+    },
+    {
+      "name": "T_Housing_0",
+      "xyz": [
+        -700,
+        -600,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        -141.544,
+        39.445,
+        69.912,
+        0.0,
+        70.643,
+        -2.145
+      ]
+    },
+    {
+      "name": "T_Housing_1_App",
+      "xyz": [
+        -700,
+        -200,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        -166.771,
+        17.647,
+        87.634,
+        0.0,
+        74.719,
+        -2.717
+      ]
+    },
+    {
+      "name": "T_Housing_1",
+      "xyz": [
+        -700,
+        -200,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        -166.771,
+        22.961,
+        96.788,
+        0.0,
+        60.251,
+        -2.717
+      ]
+    },
+    {
+      "name": "T_Housing_2_App",
+      "xyz": [
+        -700,
+        200,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        161.338,
+        17.647,
+        87.634,
+        0.0,
+        74.719,
+        -2.717
+      ]
+    },
+    {
+      "name": "T_Housing_2",
+      "xyz": [
+        -700,
+        200,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        161.338,
+        22.961,
+        96.788,
+        0.0,
+        60.251,
+        -2.717
+      ]
+    },
+    {
+      "name": "T_Housing_3_App",
+      "xyz": [
+        -700,
+        600,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        137.254,
+        36.097,
+        59.805,
+        0.0,
+        84.098,
+        -2.145
+      ]
+    },
+    {
+      "name": "T_Housing_3",
+      "xyz": [
+        -700,
+        600,
+        925
+      ],
+      "reachable": true,
+      "joints": [
+        137.254,
+        39.445,
+        69.912,
+        0.0,
+        70.643,
+        -2.145
+      ]
+    },
+    {
+      "name": "T_Handover_App",
+      "xyz": [
+        600,
+        0,
+        1000
+      ],
+      "reachable": true,
+      "joints": [
+        -3.297,
+        4.528,
+        95.732,
+        -0.0,
+        79.74,
+        -3.297
+      ]
+    },
+    {
+      "name": "T_Handover",
+      "xyz": [
+        600,
+        0,
+        1000
+      ],
+      "reachable": true,
+      "joints": [
+        -3.297,
+        8.915,
+        106.967,
+        -0.0,
+        64.118,
+        -3.297
+      ]
+    },
+    {
+      "name": "T_Kit_A_App",
+      "xyz": [
+        870,
+        -420,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -27.816,
+        40.974,
+        50.011,
+        -0.0,
+        89.015,
+        -2.047
+      ]
+    },
+    {
+      "name": "T_Kit_A",
+      "xyz": [
+        870,
+        -420,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        -27.816,
+        43.277,
+        61.533,
+        -0.0,
+        75.19,
+        -2.047
+      ]
+    },
+    {
+      "name": "T_Kit_B_App",
+      "xyz": [
+        870,
+        420,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        23.722,
+        40.974,
+        50.011,
+        -0.0,
+        89.015,
+        -2.047
+      ]
+    },
+    {
+      "name": "T_Kit_B",
+      "xyz": [
+        870,
+        420,
+        940
+      ],
+      "reachable": true,
+      "joints": [
+        23.722,
+        43.277,
+        61.533,
+        -0.0,
+        75.19,
+        -2.047
+      ]
+    }
+  ],
+  "zones": {
+    "S_p_mm": 1150.0,
+    "reach_mm": 1300.0,
+    "r_stop_mm": 1707.5,
+    "r_warn_mm": 2450.0,
+    "note": "Envolvente estática máxima; la separación operativa se calcula en línea TCP-mano."
+  },
+  "collision_report": [
+    {
+      "segment": "PCB_11_in",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "PCB_11_App",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "PCB_11",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "PCB_11_Ret",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "PCB_11_out",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Handover_in",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Handover_App",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Handover",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Handover_Ret",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Handover_out",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Housing_1_in",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Housing_1_App",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Housing_1",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Housing_1_Ret",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Housing_1_out",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_A_in",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_A_App",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_A",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_A_Ret",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_A_out",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Bin_1_in",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Bin_1_App",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Bin_1",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Bin_1_Ret",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Bin_1_out",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_B_in",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_B_App",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_B",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_B_Ret",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Kit_B_out",
+      "result": 0,
+      "items": []
+    },
+    {
+      "segment": "Home",
+      "result": 0,
+      "items": []
+    }
+  ]
+}

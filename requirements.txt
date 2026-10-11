@@ -1,0 +1,9 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pillow>=10.0
+robodk>=6.0.2          # only for robodk/build_cell_systems.py (requires RoboDK desktop)
+# local LLM evaluation (code/llm_translate.py) only:
+torch>=2.3
+transformers>=4.43
+accelerate>=0.33
