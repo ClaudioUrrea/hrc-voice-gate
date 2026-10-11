@@ -1,0 +1,83 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+===========================================================
+
+This repository is dual-licensed. This file governs the DATA, FIGURES and
+CELL RECORD. The SOURCE CODE is governed separately by the MIT License in
+the file LICENSE.
+
+SPDX-License-Identifier: CC-BY-4.0
+
+
+What this file covers
+---------------------
+
+The following material is licensed under the Creative Commons Attribution
+4.0 International Public License:
+
+  results/corpus.json            the 264-utterance bilingual (EN/ES) benchmark
+                                 with gold annotations
+  results/results.json           scenario outcomes, SSM trace, gate decisions
+                                 and the error-injection study
+  results/llm_eval.json          per-utterance translator output and summary
+  results/table_scenarios.json   the Table 3 rows
+  robodk/cell_layout.json        cell configuration, joint solutions and the
+                                 collision report
+  figures/                       Figures 1-6 (PDF and PNG) and the RoboDK
+                                 renders under figures/raw/
+
+
+What this file does NOT cover
+-----------------------------
+
+All Python sources -- everything under code/ and robodk/build_cell_systems.py
+-- remain under the MIT License. See the file LICENSE.
+
+
+The licence
+-----------
+
+The complete legal code of the Creative Commons Attribution 4.0
+International Public License is published by Creative Commons at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+and a human-readable summary at:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+That legal code is incorporated here by reference and governs your use of
+the material listed above. In short, you are free to share and adapt this
+material for any purpose, including commercially, provided you give
+appropriate credit, link to the licence, and indicate whether changes were
+made.
+
+
+Attribution
+-----------
+
+When reusing this material, please credit it as:
+
+  Urrea, C. (2026). Data, figures and cell record for "Giving Operators a
+  Voice Without Giving Up Safety: A Safety-Gated Sociotechnical Architecture
+  for Natural-Language Preferences in Human-Robot Collaborative Kitting".
+  https://doi.org/10.6084/m9.figshare.33961735
+  Licensed under CC BY 4.0.
+
+If you use the material in a publication, please also cite the article
+itself; see CITATION.cff.
+
+
+Provenance
+----------
+
+All data in this repository were produced in simulation. No human
+participant contributed data, and no personal data of any kind is included.
+
+
+Disclaimer
+----------
+
+Unless otherwise separately undertaken by the Licensor, to the extent
+possible, the Licensor offers the Licensed Material as-is and as-available,
+and makes no representations or warranties of any kind concerning the
+Licensed Material, whether express, implied, statutory or other.

@@ -1,14 +1,38 @@
 cff-version: 1.2.0
-message: "If you use this software or data, please cite the article and the archived release."
+message: "If you use this software or data, please cite the article (preferred) and, where the exact release matters, the archived record."
 title: "hrc-voice-gate: Safety-gated natural-language preferences for human-robot collaborative kitting"
+abstract: "Code, RoboDK cell, bilingual benchmark and results for a safety-gated architecture in which a local language model proposes operator preferences in a typed constraint language and a deterministic admission gate is the only path to the scheduler."
+type: software
 authors:
   - family-names: Urrea
     given-names: Claudio
     orcid: "https://orcid.org/0000-0001-7197-8928"
     affiliation: "University of Santiago of Chile"
+    email: claudio.urrea@usach.cl
 version: "1.0.0"
 date-released: "2026-09-22"
 doi: "10.6084/m9.figshare.33961735"
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0
 repository-code: "https://github.com/ClaudioUrrea/hrc-voice-gate"
-keywords: [human-robot collaboration, large language models, safety gate, speed and separation monitoring, ISO/TS 15066, sociotechnical systems, RoboDK]
+keywords:
+  - human-robot collaboration
+  - large language models
+  - safety gate
+  - runtime assurance
+  - speed and separation monitoring
+  - ISO/TS 15066
+  - sociotechnical systems
+  - RoboDK
+preferred-citation:
+  type: article
+  title: "Giving Operators a Voice Without Giving Up Safety: A Safety-Gated Sociotechnical Architecture for Natural-Language Preferences in Human-Robot Collaborative Kitting"
+  authors:
+    - family-names: Urrea
+      given-names: Claudio
+      orcid: "https://orcid.org/0000-0001-7197-8928"
+      affiliation: "University of Santiago of Chile"
+  journal: "Systems"
+  year: 2026
+  notes: "Submitted."
