@@ -94,7 +94,7 @@ def chip(x, y, w, h, label, fc, ec, fs=8.6, weight='bold', tc=DARK, dashed=False
 
 # ========================================================================== headline
 ax.text(W / 2, H - 0.29,
-        'Operator voice without giving up safety: interpretation by a language model, '
+        'Operator voice without giving up safety: Interpretation by a language model, '
         'authority by a deterministic gate',
         ha='center', va='center', fontsize=13.4, fontweight='bold', color=DARK)
 
@@ -121,7 +121,7 @@ ax.add_patch(Polygon([(cxA - 0.10, 4.14), (cxA + 0.10, 4.14), (cxA - 0.01, 3.98)
                      fc='white', ec=BLUE, lw=1.3, zorder=4))
 ax.add_patch(Polygon([(cxA - 0.085, 4.16), (cxA + 0.085, 4.16), (cxA - 0.01, 4.01)],
                      fc='white', ec='white', lw=0, zorder=5))
-ax.text(cxA, 4.45, 'operator B, speaking at terminal B   (EN / ES)',
+ax.text(cxA, 4.45, 'Operator B, speaking at terminal B   (EN / ES)',
         ha='center', va='center', fontsize=7.3, color=MUTED, zorder=7)
 ax.text(cxA, 4.26, '"Baja la velocidad cerca de mi bandeja"',
         ha='center', va='center', fontsize=9.3, fontweight='bold',
@@ -130,15 +130,15 @@ ax.text(cxA, 4.26, '"Baja la velocidad cerca de mi bandeja"',
 vflow(cxA, 3.96, 3.80)
 
 # --- untrusted translator
-chip(AX + 0.22, 3.34, 2.86, 0.44, 'local open-weight LLM   (6 tested)',
+chip(AX + 0.22, 3.34, 2.86, 0.44, 'Local open-weight LLM   (6 tested)',
      fc='#FBEAEA', ec=RED, fs=9.1, dashed=True)
-ax.text(cxA, 3.27, 'untrusted  ·  proposes a candidate, never commands',
+ax.text(cxA, 3.27, 'Untrusted  ·  Proposes a candidate, never commands',
         ha='center', va='top', fontsize=7.2, color=RED, style='italic', zorder=7)
 
 vflow(cxA, 3.10, 2.94)
 
 # --- candidate in the typed language
-ax.text(AX + 0.38, 2.92, 'candidate in OCL',
+ax.text(AX + 0.38, 2.92, 'Candidate in OCL',
         ha='left', va='bottom', fontsize=7.0, color=MUTED, zorder=7)
 chip(AX + 0.38, 2.56, 2.54, 0.32, 'speed_cap(B, kit_B, 150 mm/s)',
      fc='#EEF2F9', ec=BLUE, fs=8.5, weight='normal')
@@ -151,12 +151,12 @@ ax.add_patch(FancyBboxPatch((AX + 0.15, 1.52), 3.00, 0.84,
                             fc='#E8F3ED', ec=GREEN, lw=2.1, zorder=4))
 ax.text(cxA, 2.26, 'DETERMINISTIC ADMISSION GATE', ha='center', va='center',
         fontsize=9.1, fontweight='bold', color=GREEN, zorder=7)
-for i, (k, v) in enumerate([('schema', 'well-typed'),
-                            ('origin', "speaker's terminal"),
-                            ('authority', "speaker's zones"),
-                            ('monotone', 'tightens only')]):
+for i, (k, v) in enumerate([('Schema', 'Well-typed'),
+                            ('Origin', "Speaker's terminal"),
+                            ('Authority', "Speaker's zones"),
+                            ('Monotone', 'Tightens only')]):
     col, row = i % 2, i // 2
-    xk, yk = AX + 0.33 + col * 1.49, 2.00 - row * 0.30
+    xk, yk = AX + 0.33 + col * 1.49, 2.03 - row * 0.29
     tick(xk, yk, s=0.85)
     ax.text(xk + 0.11, yk + 0.012, k, ha='left', va='center', fontsize=8.0,
             fontweight='bold', color=DARK, zorder=7)
@@ -166,23 +166,23 @@ for i, (k, v) in enumerate([('schema', 'well-typed'),
 # --- admit / reject
 vflow(cxA - 0.70, 1.50, 1.38, color=GREEN)
 vflow(cxA + 0.70, 1.50, 1.38, color=RED)
-chip(cxA - 1.17, 1.06, 0.94, 0.32, 'admitted', fc='#DCEFE4', ec=GREEN, fs=8.3, tc=GREEN)
-chip(cxA + 0.23, 1.06, 0.94, 0.32, 'rejected', fc='#FBE4E4', ec=RED, fs=8.3, tc=RED)
+chip(cxA - 1.17, 1.06, 0.94, 0.32, 'Admitted', fc='#DCEFE4', ec=GREEN, fs=8.3, tc=GREEN)
+chip(cxA + 0.23, 1.06, 0.94, 0.32, 'Rejected', fc='#FBE4E4', ec=RED, fs=8.3, tc=RED)
 
 # --- the bedrock: SSM sits below the scheduler and nothing above can reach it
 ax.add_patch(FancyBboxPatch((AX + 0.15, 0.64), 3.00, 0.34,
                             boxstyle='round,pad=0.015,rounding_size=0.05',
                             fc=DARK, ec='none', zorder=3))
-ax.text(cxA, 0.87, 'admitted requests reach the scheduler', ha='center', va='center',
+ax.text(cxA, 0.87, 'Admitted requests reach the scheduler', ha='center', va='center',
         fontsize=7.0, color='white', fontweight='bold', zorder=7)
-ax.text(cxA, 0.73, 'speed-and-separation monitoring (after ISO/TS 15066) runs below it',
+ax.text(cxA, 0.73, 'Speed-and-separation monitoring (after ISO/TS 15066) runs below it',
         ha='center', va='center', fontsize=6.7, color='#AEB9C6', zorder=7)
 
 # ============================================== PANEL B — safety result
 panel(BX, PY, BW, PH, 'What the gate guarantees, for any model', GREEN)
 
 ax.text(BX + 0.20, 4.44, 'Gate decisions on the 264-utterance EN/ES benchmark',
-        ha='left', va='center', fontsize=8.5, fontweight='bold', color=DARK, zorder=7)
+        ha='left', va='center', fontsize=8.2, fontweight='bold', color=DARK, zorder=7)
 
 bx0, bw, by0, bh = BX + 0.20, 2.90, 3.94, 0.30
 for n, c in [(236, GREEN), (12, PALE), (10, RED), (6, '#7A0C14')]:
@@ -193,21 +193,21 @@ for n, c in [(236, GREEN), (12, PALE), (10, RED), (6, '#7A0C14')]:
                 fontsize=8.3, fontweight='bold', color='white', zorder=7)
     bx0 += wseg
 ax.text(BX + 0.20, 3.84,
-        'faithful translator  ·  236 admitted  ·  28 rejected (12 no-op, 10 safety, 6 authority)',
-        ha='left', va='top', fontsize=6.4, color=MUTED, zorder=7)
-ax.text(BX + 0.20, 3.68, 'no legitimate request refused, no adversarial request admitted',
+        'Faithful translator  ·  236 admitted  ·  28 rejected (12 no-op, 10 safety, 6 authority)',
+        ha='left', va='top', fontsize=6.0, color=MUTED, zorder=7)
+ax.text(BX + 0.20, 3.68, 'No legitimate request refused, no adversarial request admitted',
         ha='left', va='top', fontsize=7.3, color=GREEN, fontweight='bold', zorder=7)
 
 ax.text(BX + 0.20, 3.44, 'Specification violations entering the store, per pass',
-        ha='left', va='center', fontsize=8.5, fontweight='bold', color=DARK, zorder=7)
+        ha='left', va='center', fontsize=8.2, fontweight='bold', color=DARK, zorder=7)
 
 ax2 = fig.add_axes([(BX + 0.48) / W, 1.66 / H, 2.52 / W, 1.54 / H])
 ax2.set_facecolor('white')
-groups = ['faithful translator\n(no corruption)', 'half the fields corrupted\n(50% injection)']
+groups = ['Faithful translator\n(no corruption)', 'Half the fields corrupted\n(50% injection)']
 nogate = [16.0, 80.5]
 xpos = np.arange(2)
-ax2.bar(xpos - 0.19, nogate, width=0.34, color=RED, edgecolor='none', label='no gate')
-ax2.bar(xpos + 0.19, [1.0, 1.0], width=0.34, color=GREEN, edgecolor='none', label='with gate')
+ax2.bar(xpos - 0.19, nogate, width=0.34, color=RED, edgecolor='none', label='No gate')
+ax2.bar(xpos + 0.19, [1.0, 1.0], width=0.34, color=GREEN, edgecolor='none', label='With gate')
 for i, v in enumerate(nogate):
     ax2.text(i - 0.19, v + 2.2, f'{v:.1f}', ha='center', va='bottom', fontsize=8.8,
              fontweight='bold', color=RED)
@@ -240,8 +240,8 @@ panel(CX, PY, CW, PH, 'Preference cost is not what it sounds like', AMBER)
 ax.text(CX + 0.20, 4.46, 'Every preference priced on two axes at once',
         ha='left', va='center', fontsize=8.5, fontweight='bold', color=DARK, zorder=7)
 ax.text(CX + 0.20, 4.29,
-        'S1 fragile parts handled by the operator  ·  S2 speed cap  ·  S3 exclusion\n'
-        'S4 ten-minute break  ·  S5 priority  ·  S6 S1, S2 and S4 at once',
+        'S1 Fragile parts handled by the operator  ·  S2 Speed cap  ·  S3 Exclusion\n'
+        'S4 Ten-minute break  ·  S5 Priority  ·  S6 S1, S2 and S4 at once',
         ha='left', va='top', fontsize=6.5, color=MUTED, zorder=7, linespacing=1.3)
 
 ax3 = fig.add_axes([(CX + 0.58) / W, 2.46 / H, 2.82 / W, 1.56 / H])
@@ -250,7 +250,7 @@ ax3.set_facecolor('white')
 scen = [('S1', 1.3, 2.59, RED), ('S2', 6.4, 0.40, BLUE), ('S3', 3.5, 0.34, PALE),
         ('S4', 8.6, 0.30, BLUE), ('S5', 0.9, 0.36, PALE), ('S6', 14.6, 2.08, '#7A0C14')]
 ax3.axhline(1.0, color=EDGE, lw=1.0, ls=(0, (4, 3)), zorder=1)
-ax3.text(16.1, 0.58, 'baseline', ha='right', va='center', fontsize=6.4, color=MUTED)
+ax3.text(16.1, 0.58, 'Baseline', ha='right', va='center', fontsize=6.4, color=MUTED)
 for lab, dT, stop, col in scen:
     ax3.scatter([dT], [stop / 0.37], s=150, color=col, edgecolor='white', lw=1.3, zorder=5)
     ax3.text(dT, stop / 0.37, lab, ha='center', va='center', fontsize=6.3,
@@ -258,9 +258,9 @@ for lab, dT, stop, col in scen:
 ax3.annotate('', xy=(1.75, 6.75), xytext=(3.4, 5.6),
              arrowprops=dict(arrowstyle='->', lw=1.3, color=RED,
                              connectionstyle='arc3,rad=0.22'))
-ax3.text(3.6, 5.6, 'cheapest in throughput,\nyet stops rise sevenfold', ha='left',
+ax3.text(3.6, 5.6, 'Cheapest in throughput,\nyet stops rise sevenfold', ha='left',
          va='center', fontsize=7.2, color=RED, fontweight='bold', linespacing=1.3)
-ax3.text(11.4, 2.05, 'expensive,\nno extra stops', ha='center', va='bottom',
+ax3.text(11.4, 2.05, 'Expensive,\nno extra stops', ha='center', va='bottom',
          fontsize=6.9, color=BLUE, linespacing=1.25)
 ax3.annotate('', xy=(8.8, 1.35), xytext=(10.6, 2.0),
              arrowprops=dict(arrowstyle='->', lw=1.0, color=BLUE,
@@ -268,8 +268,8 @@ ax3.annotate('', xy=(8.8, 1.35), xytext=(10.6, 2.0),
 ax3.set_xlim(-1.3, 16.4); ax3.set_ylim(0, 8.0)
 ax3.set_xticks([0, 5, 10, 15]); ax3.set_xticklabels(['0', '5', '10', '15'], fontsize=7.1)
 ax3.set_yticks([0, 2, 4, 6]); ax3.set_yticklabels(['0', '2x', '4x', '6x'], fontsize=7.1)
-ax3.set_xlabel('throughput lost (% of baseline)', fontsize=7.6, color=DARK, labelpad=1.5)
-ax3.set_ylabel('protective stops\n(multiple of baseline)', fontsize=7.6, color=DARK,
+ax3.set_xlabel('Throughput lost (% of baseline)', fontsize=7.6, color=DARK, labelpad=1.5)
+ax3.set_ylabel('Protective stops\n(multiple of baseline)', fontsize=7.6, color=DARK,
                linespacing=1.15, labelpad=1.5)
 for s_ in ('top', 'right'):
     ax3.spines[s_].set_visible(False)
@@ -283,15 +283,15 @@ ax.add_patch(FancyBboxPatch((CX + 0.20, 0.66), CW - 0.40, 1.42,
                             fc='white', ec=AMBER, lw=1.4, zorder=4))
 ax.text(CX + 0.34, 1.92, 'A preference does not stay with the operator',
         ha='left', va='center', fontsize=8.0, fontweight='bold', color=DARK, zorder=7)
-ax.text(CX + 0.34, 1.73, 'S2: cap on zone B only.  Kits/h, baseline to capped.',
+ax.text(CX + 0.34, 1.73, 'S2: Cap on zone B only.  Kits/h, baseline to capped.',
         ha='left', va='center', fontsize=6.9, color=MUTED, style='italic', zorder=7)
 
 def track(v):                                   # 14.0 -> 9.06 ,  15.6 -> 10.26
     return CX + 1.85 + (v - 13.4) * (1.10 / 1.5)
 
 for i, (lab, v0, v1, col) in enumerate(
-        [('operator A  (asked for nothing)', 14.53, 13.63, RED),
-         ('operator B  (asked for the cap)', 14.70, 13.73, MUTED)]):
+        [('Operator A  (asked for nothing)', 14.53, 13.63, RED),
+         ('Operator B  (asked for the cap)', 14.70, 13.73, MUTED)]):
     y = 1.40 - i * 0.34
     ax.text(CX + 0.34, y, lab, ha='left', va='center', fontsize=7.1, color=DARK, zorder=7)
     ax.plot([track(v1), track(v0)], [y, y], color=col, lw=2.4,
@@ -306,8 +306,8 @@ ax.add_patch(FancyBboxPatch((0.16, 0.09), W - 0.32, 0.36,
                             boxstyle='round,pad=0.01,rounding_size=0.07',
                             fc=DARK, ec='none', zorder=4))
 ax.text(W / 2, 0.27,
-        'Doosan M1013 two-operator collaborative cell (RoboDK)   ·   fixed and dynamic requests, 30-shift runs'
-        '   ·   264-utterance EN/ES benchmark   ·   6 local LLMs   ·   STPA   ·   open code and data',
+        'Doosan M1013 two-operator collaborative cell (RoboDK)   ·   Fixed and dynamic requests, 30-shift runs'
+        '   ·   264-utterance EN/ES benchmark   ·   6 local LLMs   ·   STPA   ·   Open code and data',
         ha='center', va='center', color='white', fontsize=7.4, zorder=7)
 
 # ============================================================================= output
