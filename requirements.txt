@@ -7,3 +7,4 @@ robodk>=6.0.2          # only for robodk/build_cell_systems.py (requires RoboDK 
 torch>=2.3
 transformers>=4.43
 accelerate>=0.33
+# local multi-model evaluation (code/llm_compare.py): Ollama >= 0.40 (https://ollama.com), no Python packages needed

@@ -16,14 +16,18 @@ The following material is licensed under the Creative Commons Attribution
 
   results/corpus.json            the 264-utterance bilingual (EN/ES) benchmark
                                  with gold annotations
-  results/results.json           scenario outcomes, SSM trace, gate decisions
-                                 and the error-injection study
-  results/llm_eval.json          per-utterance translator output and summary
-  results/table_scenarios.json   the Table 3 rows
+  results/corpus_asr.json        the benchmark with synthetic transcription noise
+  results/results.json           results of the submitted version (scenarios,
+                                 SSM trace, gate decisions, error injection)
+  results/llm_eval.json          per-utterance output of the 16-bit translator
+  results/table_scenarios.json   scenario table of the submitted version
+  results/r1/                    results of the revised version (experiments
+                                 A-G and table rows)
+  results/llm_compare/           per-utterance outputs of the six local models
   robodk/cell_layout.json        cell configuration, joint solutions and the
                                  collision report
-  figures/                       Figures 1-6 (PDF and PNG) and the RoboDK
-                                 renders under figures/raw/
+  figures/                       Figures 1-8 (PDF and PNG), the graphical
+                                 abstract and the RoboDK renders in figures/raw/
 
 
 What this file does NOT cover
@@ -59,7 +63,7 @@ When reusing this material, please credit it as:
 
   Urrea, C. (2026). Data, figures and cell record for "Giving Operators a
   Voice Without Giving Up Safety: A Safety-Gated Sociotechnical Architecture
-  for Natural-Language Preferences in Human-Robot Collaborative Kitting".
+  for Natural-Language Preferences in Human-Robot Collaborative Cells".
   https://doi.org/10.6084/m9.figshare.33961735
   Licensed under CC BY 4.0.
 

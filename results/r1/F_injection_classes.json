@@ -1,0 +1,50 @@
+{
+ "0": {
+  "protective": 6.0,
+  "overspeed": 4.0,
+  "authority": 6.0,
+  "range": 2.0,
+  "any_nogate": 16.0,
+  "any_gate": 0.0
+ },
+ "0.05": {
+  "protective": 7.52,
+  "overspeed": 6.04,
+  "authority": 7.48,
+  "range": 3.84,
+  "any_nogate": 22.72,
+  "any_gate": 0.0
+ },
+ "0.1": {
+  "protective": 9.08,
+  "overspeed": 8.06,
+  "authority": 8.82,
+  "range": 5.4,
+  "any_nogate": 29.14,
+  "any_gate": 0.0
+ },
+ "0.2": {
+  "protective": 12.86,
+  "overspeed": 10.86,
+  "authority": 12.96,
+  "range": 9.1,
+  "any_nogate": 43.42,
+  "any_gate": 0.0
+ },
+ "0.3": {
+  "protective": 16.66,
+  "overspeed": 14.28,
+  "authority": 16.32,
+  "range": 11.54,
+  "any_nogate": 56.08,
+  "any_gate": 0.0
+ },
+ "0.5": {
+  "protective": 21.42,
+  "overspeed": 19.36,
+  "authority": 23.16,
+  "range": 20.04,
+  "any_nogate": 80.54,
+  "any_gate": 0.0
+ }
+}
