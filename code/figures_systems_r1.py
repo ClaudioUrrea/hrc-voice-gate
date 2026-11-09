@@ -48,77 +48,83 @@ which = sys.argv[1:] or ["1", "2", "3", "4", "5", "6", "7", "8"]
 if "1" in which:
     HUM, INT, EXE, SAF = "#fbe5d6", "#e4dbf1", "#dae3f3", "#f8cbad"
     CH, CI, CE, CS = "#c55a11", "#7030a0", "#1f4e79", "#c00000"
-    fig, ax = plt.subplots(figsize=(7.4, 5.6)); ax.set_xlim(0, 100); ax.set_ylim(-2.5, 76); ax.axis("off")
+    fig, ax = plt.subplots(figsize=(7.4, 5.8)); ax.set_xlim(0, 103); ax.set_ylim(-2.2, 81.4); ax.axis("off")
 
-    def band(y0, h, fc, label, col):
-        ax.add_patch(Rectangle((0.3, y0), 99.4, h, fc=fc, ec="none", alpha=0.35, zorder=0))
-        ax.text(1.2, y0 + h - 1.3, label, fontsize=8.6, fontweight="bold", color=col, va="top", zorder=5)
+    def band(y0, h, fc):
+        ax.add_patch(Rectangle((0.3, y0), 102.4, h, fc=fc, ec="none", alpha=0.35, zorder=0))
 
-    def box(x, y, w, h, t, fc, ec="0.25", lw=0.8, fs=7.4, bold=False):
+    def blabel(x, y, t, col, va="top"):
+        ax.text(x, y, t, fontsize=8.6, fontweight="bold", color=col, va=va, ha="left", zorder=5, linespacing=1.1)
+
+    def box(x, y, w, h, t, fc, ec="0.25", lw=0.8, fs=7.4):
         ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.35,rounding_size=1.0",
                                     fc=fc, ec=ec, lw=lw, zorder=3))
-        ax.text(x + w / 2, y + h / 2, t, ha="center", va="center", fontsize=fs, zorder=4,
-                fontweight="bold" if bold else "normal", linespacing=1.15)
+        ax.text(x + w / 2, y + h / 2, t, ha="center", va="center", fontsize=fs, zorder=4, linespacing=1.15)
 
-    def arr(p, q, t="", c="0.2", ls="-", lw=0.9, off=(0, 0), ha="center", rad=0.0, fs=6.6):
-        ax.add_patch(FancyArrowPatch(p, q, arrowstyle="-|>", mutation_scale=9, lw=lw, color=c, linestyle=ls,
-                                     connectionstyle=f"arc3,rad={rad}", zorder=2))
-        if t:
-            ax.text((p[0] + q[0]) / 2 + off[0], (p[1] + q[1]) / 2 + off[1], t, fontsize=fs, ha=ha, va="center",
-                    color=c, style="italic", zorder=6, bbox=dict(fc="white", ec="none", pad=0.4, alpha=0.85))
+    def lab(x, y, t, c, ha="center", fs=6.6):
+        ax.text(x, y, t, fontsize=fs, ha=ha, va="center", color=c, style="italic", zorder=6, linespacing=1.15,
+                bbox=dict(fc="white", ec="none", pad=0.4, alpha=0.9))
 
-    # bands
-    band(54, 21.5, HUM, "Human layer", CH)
-    band(39, 14, INT, "Interpretation layer (untrusted, on premises)", CI)
-    band(0.5, 37.5, EXE, "Execution layer (deterministic)", CE)
+    def arr(p, q, c="0.2", lw=0.9, rad=0.0):
+        ax.add_patch(FancyArrowPatch(p, q, arrowstyle="-|>", mutation_scale=9, lw=lw, color=c,
+                                     connectionstyle=f"arc3,rad={rad}", shrinkA=0, shrinkB=0, zorder=2))
+
+    # columns (x, width) and rows; box outlines extend 0.35 beyond (x, y, w, h)
+    X1, W1, X2, W2, X3, W3, X4, W4 = 1.8, 15.0, 26.5, 21.5, 59.5, 19.5, 86.3, 15.3
+    c1, c2, c3, c4 = X1 + W1 / 2, X2 + W2 / 2, X3 + W3 / 2, X4 + W4 / 2
+    band(59.0, 22.0, HUM); band(40.0, 16.5, INT); band(-1.5, 40.0, EXE)
+    blabel(1.2, 79.9, "Human layer", CH)
+    blabel(1.2, 48.2, "Interpretation\nlayer (untrusted,\non premises)", CI, va="center")
+    blabel(1.2, 37.4, "Execution layer (deterministic)", CE)
 
     # human layer
-    box(3, 59, 17, 9.5, "Operator A or B\nspeaks or types\na preference", HUM)
-    box(27, 59, 19, 9.5, "Interaction terminal\nbound to one station\n(push-to-talk, display)", HUM)
-    box(54, 59, 20, 9.5, "Read-back, reason\nand cost quote\nshown to the operator", HUM)
-    box(81, 59, 16.5, 9.5, "Andon beacon\n(request active)", HUM)
-    arr((20.6, 63.7), (26.6, 63.7), "utterance", off=(0, 1.8))
+    box(X1, 62.5, W1, 10, "Operator A or B\nspeaks or types\na preference", HUM)
+    box(X2, 62.5, W2, 10, "Interaction terminal\nbound to one station\n(push-to-talk, display)", HUM)
+    box(X3, 62.5, W3, 10, "Read-back, reason\nand cost quote\nshown to the operator", HUM)
+    box(X4, 62.5, W4, 10, "Andon beacon\n(request active)", HUM)
+    arr((X1 + W1 + 0.4, 67.5), (X2 - 0.4, 67.5)); lab((X1 + W1 + X2) / 2, 70.0, "Utterance", "0.2")
 
     # interpretation layer
-    box(27, 42, 19, 8.5, "Local LLM $\\tau$\n(open-weight, quantised)", INT)
-    box(54, 42, 20, 8.5, "OCL candidate $y$\n(JSON, not trusted)", INT)
-    arr((36.5, 58.6), (36.5, 51.0), "text $u$", c=CI, off=(-3.2, 0.3))
-    arr((46.4, 46.2), (53.6, 46.2), c=CI)
+    box(X2, 42.5, W2, 8, "Local LLM $\\tau$\n(open-weight, quantised)", INT)
+    box(X3, 42.5, W3, 8, "OCL candidate $y$\n(JSON, not trusted)", INT)
+    arr((30.0, 62.1), (30.0, 50.9), c=CI); lab(26.6, 54.6, "Text $u$", CI)
+    arr((X2 + W2 + 0.4, 46.5), (X3 - 0.4, 46.5), c=CI)
 
     # execution layer
-    box(54, 25, 20, 9.5, "Safety gate $G(y,s)$\nschema · safety ·\nauthority · range", EXE, ec=CE, lw=1.3, bold=False)
-    box(27, 25, 19, 9.5, "Constraint store $\\mathcal{C}(t)$\n(time-windowed,\nadmitted only)", EXE)
-    box(3, 25, 17, 9.5, "Scheduler $\\pi$\nselects next job\n(part, drop zone)", EXE)
-    box(3, 8, 17, 10, "Verified motion\nprogramme (31\njoint-space segments)", EXE)
-    box(27, 8, 19, 10, "Robot controller\n$v_{\\mathrm{cmd}}=\\min(v_{\\mathrm{seg}},v_{\\mathrm{cap}},v_{\\mathrm{SSM}})$", EXE, fs=7.0)
-    box(54, 8, 20, 10, "SSM (ISO/TS 15066)\nsafety-rated, not\nreachable from OCL", SAF, ec=CS, lw=1.3)
-    box(81, 25, 16.5, 9.5, "Laser scanner and\nbody tracking\n(separation $d$, $v_h$)", SAF, ec=CS)
-    box(81, 8, 16.5, 10, "Doosan M1013\nworking beside\nthe operators", "#ededed")
+    box(X1, 23.5, W1, 9.5, "Scheduler $\\pi$\nselects next job\n(part, drop zone)", EXE)
+    box(X2, 23.5, W2, 9.5, "Constraint store $\\mathcal{C}(t)$\n(time-windowed,\nadmitted only)", EXE)
+    box(X3, 23.5, W3, 9.5, "Safety gate $G(y,s)$\nSchema · Safety ·\nAuthority · Range", EXE, ec=CE, lw=1.3)
+    box(X4, 23.5, W4, 9.5, "Laser scanner and\nbody tracking\n(separation $d$, $v_h$)", SAF, ec=CS)
+    box(X1, 7.0, W1, 10, "Verified motion\nprogramme\n(31 joint-space\nsegments)", EXE)
+    box(X2, 7.0, W2, 10, "Robot controller\n$v_{\\mathrm{cmd}}=\\min(v_{\\mathrm{seg}},v_{\\mathrm{cap}},v_{\\mathrm{SSM}})$", EXE, fs=7.0)
+    box(X3, 7.0, W3, 10, "SSM (ISO/TS 15066)\nSafety-rated, not\nreachable from OCL", SAF, ec=CS, lw=1.3)
+    box(X4, 7.0, W4, 10, "Doosan M1013\nworking beside\nthe operators", "#ededed")
 
-    arr((64, 41.6), (64, 35.0), "candidate", c=CI, off=(3.6, 0))
-    # trusted identity path: terminal -> gate, outside the interpretation layer's boxes
-    idc = CE
-    ax.plot([42, 42, 76.6, 76.6], [58.6, 53.2, 53.2, 31.0], color=idc, lw=1.7, zorder=2, solid_capstyle="butt")
-    ax.add_patch(FancyArrowPatch((76.6, 31.0), (74.5, 31.0), arrowstyle="-|>", mutation_scale=10, lw=1.7, color=idc, zorder=2))
-    ax.text(59.5, 53.2, "terminal identity $s$ (hardware path, bypasses the LLM)", fontsize=6.6, color=idc,
-            style="italic", ha="center", va="center", zorder=6, bbox=dict(fc="white", ec="none", pad=0.5))
+    arr((c3, 42.1), (c3, 33.4), c=CI); lab(c3 + 4.6, 37.8, "Candidate", CI)
+    # trusted identity path: terminal -> gate, in the white strip between the bands, never through the LLM
+    xi, yi = 36.0, 57.75
+    ax.plot([xi, xi, 82.0, 82.0], [62.1, yi, yi, 30.5], color=CE, lw=1.7, zorder=2, solid_capstyle="butt")
+    ax.add_patch(FancyArrowPatch((82.0, 30.5), (X3 + W3 + 0.4, 30.5), arrowstyle="-|>", mutation_scale=10,
+                                 lw=1.7, color=CE, shrinkA=0, shrinkB=0, zorder=2))
+    lab(59.0, yi, "Terminal identity $s$ (hardware path, bypasses the LLM)", CE)
     # decision, reason and status back to the human layer
-    ax.plot([74.5, 79.0, 79.0], [27.0, 27.0, 56.0], color=CE, lw=0.9, ls="--", zorder=2)
-    ax.plot([64, 89.2], [56.0, 56.0], color=CE, lw=0.9, ls="--", zorder=2)
-    ax.add_patch(FancyArrowPatch((64, 56.0), (64, 58.6), arrowstyle="-|>", mutation_scale=9, lw=0.9, color=CE, zorder=2))
-    ax.add_patch(FancyArrowPatch((89.2, 56.0), (89.2, 58.6), arrowstyle="-|>", mutation_scale=9, lw=0.9, color=CE, zorder=2))
-    ax.text(86.5, 44.5, "decision, reason\nand status", fontsize=6.6, color=CE, style="italic", ha="center",
-            va="center", zorder=6, bbox=dict(fc="white", ec="none", pad=0.4, alpha=0.9))
-    arr((53.6, 29.8), (46.4, 29.8), "admitted $c$", c=CE, off=(0, 1.9))
-    arr((26.6, 29.8), (20.4, 29.8), c=CE)
-    arr((11.5, 24.6), (11.5, 18.4), "job", c=CE, off=(2.6, 0))
-    arr((20.4, 13), (26.6, 13), "$v_{\\mathrm{seg}}$", c=CE, off=(0, 1.8))
-    arr((36.5, 24.6), (36.5, 18.4), "$v_{\\mathrm{cap}}$", c=CE, off=(2.8, 0))
-    arr((53.6, 13), (46.4, 13), "$v_{\\mathrm{SSM}}$", c=CS, off=(0, 1.8), lw=1.2)
-    arr((82.5, 24.6), (73.0, 18.4), "$d,\\,v_h$", c=CS, off=(-1.2, 2.2), lw=1.2)
-    arr((92.5, 18.4), (92.5, 24.6), "sensed", c=CS, off=(-3.3, 0))
-    arr((36.5, 7.6), (88.0, 7.6), "", c="0.35", rad=0.22)
-    ax.text(62, -1.2, "joint motion commanded by the controller", fontsize=6.6, style="italic", color="0.3", ha="center")
+    yd = 60.6
+    ax.plot([X3 + W3 + 0.4, 84.2, 84.2], [26.0, 26.0, yd], color=CE, lw=0.9, ls="--", zorder=2)
+    ax.plot([c3, c4], [yd, yd], color=CE, lw=0.9, ls="--", zorder=2)
+    arr((c3, yd), (c3, 62.1), c=CE); arr((c4, yd), (c4, 62.1), c=CE)
+    lab(c4 + 0.8, 47.0, "Decision, reason\nand status", CE)
+
+    yr = 28.25
+    arr((X3 - 0.4, yr), (X2 + W2 + 0.4, yr), c=CE); lab((X2 + W2 + X3) / 2, yr + 2.4, "Admitted $c$", CE)
+    arr((X2 - 0.4, yr), (X1 + W1 + 0.4, yr), c=CE)
+    arr((c1, 23.1), (c1, 17.4), c=CE); lab(c1 + 2.8, 20.25, "Job", CE)
+    arr((c2, 23.1), (c2, 17.4), c=CE); lab(c2 + 3.0, 20.25, "$v_{\\mathrm{cap}}$", CE)
+    arr((X1 + W1 + 0.4, 12.0), (X2 - 0.4, 12.0), c=CE); lab((X1 + W1 + X2) / 2, 14.2, "$v_{\\mathrm{seg}}$", CE)
+    arr((X3 - 0.4, 12.0), (X2 + W2 + 0.4, 12.0), c=CS, lw=1.2); lab((X2 + W2 + X3) / 2, 14.2, "$v_{\\mathrm{SSM}}$", CS)
+    arr((88.5, 23.1), (78.9, 17.4), c=CS, lw=1.2); lab(81.4, 21.8, "$d,\\,v_h$", CS)
+    arr((98.0, 17.4), (98.0, 23.1), c=CS); lab(94.0, 20.25, "Sensed", CS)
+    arr((c2, 6.6), (c4, 6.6), c="0.35", rad=0.2)
+    lab((c2 + c4) / 2, 6.6 - 0.1 * (c4 - c2), "Joint motion commanded by the controller", "0.3")
     fig.savefig(FIG + "Figure1_Architecture.pdf", bbox_inches="tight", pad_inches=0.03)
     fig.savefig(FIG + "Figure1_Architecture.png", bbox_inches="tight", pad_inches=0.03)
     plt.close(fig)
