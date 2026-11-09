@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""figures.py - All manuscript figures, typeset in TeX Gyre Pagella (Palatino Linotype clone)."""
+"""figures_submitted.py - Figures of the SUBMITTED version (October 2026), kept for traceability.
+The figures of the revised article are produced by figures_systems_r1.py."""
 import json, math, shutil
 import numpy as np
 import matplotlib
@@ -34,7 +35,8 @@ def math_ticks(fig, x=True):
             if not isinstance(ax_.get_major_formatter(), FixedFormatter):
                 ax_.set_major_formatter(FuncFormatter(_fmt))
 
-FIG = "../figures/"; UP = "../figures/raw/"   # RoboDK renders used for Figures 1 and 2
+FIG = "../figures/submitted/"; UP = "../figures/raw/"   # figures of the SUBMITTED version (Oct 2026)
+import os; os.makedirs(FIG, exist_ok=True)
 R = json.load(open("../results/results.json"))
 C1, C2, C3, C4, C5 = "#1f4e79", "#c55a11", "#548235", "#7f6000", "#7030a0"
 
