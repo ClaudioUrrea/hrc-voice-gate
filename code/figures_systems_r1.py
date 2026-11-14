@@ -156,10 +156,12 @@ if "4" in which:
     from cell_ext import CellJ
     from constraints import Constraint as _C
     fig, (a, b) = plt.subplots(1, 2, figsize=(7.4, 3.2), gridspec_kw=dict(width_ratios=[1, 1.5]))
-    d = np.linspace(0, 1200, 400)
+    d = np.linspace(0, 1800, 600)
     for vh, c in ((200, C1), (800, C2), (1600, C3)):
-        a.plot(d, [min(500, cell_sim.ssm_speed(x, vh)) for x in d], color=c, lw=1.5, label=f"$v_h$ = {vh} mm/s")
-    a.set_xlabel("Separation $d$ (mm)"); a.set_ylabel("Admissible speed (mm/s)"); a.legend(frameon=False, loc="lower right", fontsize=8)
+        a.plot(d, [min(500, cell_sim.ssm_speed(x, vh)) for x in d], color=c, lw=1.5, label=f"{vh} mm/s")
+    a.set_xlim(-60, 1860); a.set_xticks([0, 500, 1000, 1500])
+    a.set_xlabel("Separation $d$ (mm)"); a.set_ylabel("Admissible speed (mm/s)")
+    a.legend(frameon=False, loc="lower right", fontsize=8, title="Human speed $v_h$", title_fontsize=8, handlelength=1.4, borderaxespad=0.6, bbox_to_anchor=(1.0, 0.08))
     _c = CellJ([_C("speed_cap", "Op_B", zone="kit_B", v_max=150)], seed=3, horizon=600, oracle=False); _c.log_every = 1; _c.run()
     t = np.array(_c.log["t"]); dd = np.array(_c.log["d"]); v = np.array(_c.log["v"]); vc = np.array(_c.log["vcap"])
     on = np.where(vc < 499)[0]; t0 = max(0.0, t[on[0]] - 25) if len(on) else 100.0
