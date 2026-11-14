@@ -262,7 +262,7 @@ if "8" in which:
     a.bar(x - 0.5 * w, c, w, color=C3, label="Schema-constrained")
     a.bar(x + 0.5 * w, s, w, yerr=se, color=C2, label="Sampled (5 seeds)", capsize=1.5, error_kw=dict(lw=0.6))
     a.bar(x + 1.5 * w, n, w, color="#a5a5a5", label="Noisy text, greedy")
-    a.axhline(100 * G["llama3.1-8b-fp16 (submitted)"]["greedy"]["exact"], color="#c00000", lw=0.9, ls="--", label="Submitted (Llama 3.1 8B, 16-bit)")
+    a.axhline(100 * G["llama3.1-8b-fp16 (submitted)"]["greedy"]["exact"], color="#c00000", lw=0.9, ls="--", label="16-bit baseline (Llama 3.1 8B)")
     a.set_xticks(x); a.set_xticklabels([l for _, l in order], fontsize=8); a.set_ylim(0, 118); a.set_yticks([0, 20, 40, 60, 80, 100])
     a.set_ylabel("Exact intent, actionable (%)"); a.set_title("(a) Fidelity by model and decoding", loc="left")
     a.legend(frameon=False, fontsize=6.6, ncol=3, loc="upper left", columnspacing=0.8, handlelength=1.4)
