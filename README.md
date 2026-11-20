@@ -4,7 +4,7 @@
 
 Claudio Urrea · Electrical Engineering Department, University of Santiago of Chile (USACH)
 
-*MDPI Systems, manuscript systems-4653532 — submitted October 2026, revised November 2026 (release 1.1.0).*
+*Published in MDPI Systems 2026, 14(11), 1463 — [https://doi.org/10.3390/systems14111463](https://doi.org/10.3390/systems14111463) (open access, CC BY). Release 1.1.0 accompanies the published article.*
 
 ---
 
@@ -113,7 +113,10 @@ Archived at Figshare: [https://doi.org/10.6084/m9.figshare.33961735](https://doi
              Human--Robot Collaborative Cells},
   journal = {Systems},
   year    = {2026},
-  note    = {Under review (revised version)}
+  volume  = {14},
+  number  = {11},
+  pages   = {1463},
+  doi     = {10.3390/systems14111463}
 }
 ```
 
